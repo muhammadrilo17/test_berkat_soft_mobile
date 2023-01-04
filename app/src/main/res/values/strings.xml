@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Movies Catalogue</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="popular">Popular</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="top_rated">Top Rated</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="image_movie">Image Movie</string>
+</resources>

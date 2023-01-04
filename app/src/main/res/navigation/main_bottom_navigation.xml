@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_bottom_navigation"
+    app:startDestination="@+id/now_playing">
+
+    <fragment
+        android:id="@+id/now_playing"
+        android:name="com.rilodev.moviescatalogue.pages.main.nowplaying.NowPlayingFragment"
+        android:label="@string/now_playing"
+        tools:layout="@layout/fragment_now_playing" />
+
+    <fragment
+        android:id="@+id/popular"
+        android:name="com.rilodev.moviescatalogue.pages.main.popular.PopularFragment"
+        android:label="@string/popular"
+        tools:layout="@layout/fragment_popular" />
+
+    <fragment
+        android:id="@+id/top_rated"
+        android:name="com.rilodev.moviescatalogue.pages.main.toprated.TopRatedFragment"
+        android:label="@string/top_rated"
+        tools:layout="@layout/fragment_top_rated" />
+
+    <fragment
+        android:id="@+id/upcoming"
+        android:name="com.rilodev.moviescatalogue.pages.main.upcoming.UpcomingFragment"
+        android:label="@string/upcoming"
+        tools:layout="@layout/fragment_upcoming" />
+
+</navigation>
